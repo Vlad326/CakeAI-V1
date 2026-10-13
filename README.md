@@ -1,4 +1,8 @@
-# CakeAI-V1
+<h1 align="center">CakeAI-V1</h1>
+
+<p align="center">
+  <img width="80%" alt="CakeAI" src="https://github.com/user-attachments/assets/6db3dbfc-d367-4920-8b56-b1fbae5cc314" />
+</p>
 
 Autonomous combat robot driven by an overhead camera: tracks itself by an
 ArUco marker, finds the opponent by motion detection, and controls the
