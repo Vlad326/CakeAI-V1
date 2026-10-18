@@ -260,7 +260,7 @@ public:
 
     // Stop all motors
     void stop_all() {
-        set_all_motors(50); // 50% = neutral position for most motors
+        set_motors(50, 50, 0); // drives to neutral (50%), weapon off (0%)
         std::cout << "All motors stopped" << std::endl;
     }
 
