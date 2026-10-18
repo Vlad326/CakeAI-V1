@@ -95,7 +95,7 @@ stateDiagram-v2
     Attack: 1 · Атака
     Search: 2 · Поиск (вращение в центре)
     GoToCenter --> Attack: ближе 150 px к центру
-    Attack --> GoToCenter: ближе 150 px к противнику
+    Attack --> GoToCenter: ближе 150 px к противнику,<br/>затем ещё 2с атаки
     Attack --> Search: нет движения 5 с
     GoToCenter --> Search: нет движения 5 с
     Search --> Attack: движение снова найдено
