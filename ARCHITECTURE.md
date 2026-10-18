@@ -95,7 +95,7 @@ stateDiagram-v2
     Attack: 1 · Attack
     Search: 2 · Search (spin at center)
     GoToCenter --> Attack: closer than 150 px to center
-    Attack --> GoToCenter: closer than 150 px to opponent
+    Attack --> GoToCenter: closer than 150 px to opponent,<br/>then 2s more chase
     Attack --> Search: no motion for 5 s
     GoToCenter --> Search: no motion for 5 s
     Search --> Attack: motion detected again
